@@ -8,10 +8,10 @@ You can use existing plugins for your compilation but then you have limited cont
 - reports progress and results in the kate output pane
 
 # Makefile generator
-Intelligent bash script to create a C/C++ makefile that supports 3 build targets (debug, regular, release) where the release function is a highly optimised binary.
+Intelligent bash script to create a C/C++ makefile that supports 3 build targets (debug, regular, release) where the release build delivers a highly optimised binary.
 
 # Kate configuration
-Kate can execute external programs and commands. We use this to configure each build command and save it so we can assign a shortcut to it (Kate > Configure Keyboard Shortcuts) where we assig a shortcut to each command (C Build, etc).
+Kate can execute external programs and commands. We use this to configure each build command and save it so we can assign a shortcut to each one.
 
 Add 3 new external tools:
 - Name: C Build (or C Build Debug, C Build Release)
@@ -27,7 +27,7 @@ Add 3 new external tools:
 - Output: Display in Pane
 
 # Kate shortcusts
-Assign a shortcut to each of the ecternal tools you've just added: Kate > Menu > Settings > Configure Keyboard Shortcust.
+Assign a shortcut to each of the external tools you've just added: Kate > Menu > Settings > Configure Keyboard Shortcust.
 
 # Project snapshot generator
-Another tool I use frequently is snapshot generator. This bash script creates one file with meta data and all project source (.c, .h) files. This can be extremely useful if you want an LLM to do a project audit so I've included this one as well.
+Another tool I use frequently is snapshot generator. This bash script creates one file with meta data and all project source (.c, .h, .conf) files. This can be extremely useful if you want an LLM to do a project audit so I've included this one as well.
