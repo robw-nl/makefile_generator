@@ -26,7 +26,7 @@ Add 3 new external tools:
 - Save: All Documents
 - Output: Display in Pane
 
-# Kate shortcusts
+# Kate shortcuts
 Assign a shortcut to each of the external tools you've just added: Kate > Menu > Settings > Configure Keyboard Shortcust.
 
 # Project snapshot generator
